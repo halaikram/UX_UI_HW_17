@@ -1,19 +1,28 @@
-.inlineBlock li {
-    display: inline;
+.inline-block {
+    display: inline-block;
     vertical-align: top;
 }
 
-.inlineBlock ul {
-    margin-left: auto;
-    width: 50%;
+.logo {  
+    width: 23%; 
+    padding: 1%;
+    text-align: center;
+
 }
 
-
-.navigation {
+nav {
     width: 73%;
     padding: 1%;
-    margin-left: auto;
+}
 
+nav ul {
+    width: 50%;
+    margin-left: auto;
+    text-align: center;
+}
+
+nav li {
+    padding-right: 50px;
 }
 
 .heroImg {
@@ -27,10 +36,14 @@
 }
 
 .mypic {
-    width: 456px;
-    height: 432px;
+    width: 300px;
+    height: 300px;
   
 } 
+
+.AboutMe h1 {
+    margin: 0%;
+}
 
 
 .square {
@@ -99,6 +112,11 @@
 
 }
 
+#figmaicon {
+    width: 50px;
+    height: 50px;
+}
+
 .icons {
     width: 100px;
 }
@@ -121,15 +139,17 @@
     margin: 60px;
 }
 
-.AboutMe h1 {
-    margin: 0%;
-}
 
+.casestudies {
+    display: inline-block;
+}
 
 .casestudy1 {
     width: 522px;
     height: 589px;
     border: 1px solid #5C469C;
+    
+   
 }
 
 .casestudy1 img {
@@ -141,12 +161,16 @@
     width: 522px;
     height: 589px;
     border: 1px solid #5C469C;
+
+   
+   
 }
 
 .casestudy3 {
     width: 522px;
     height: 589px;
     border: 1px solid #5C469C;
+   
 }
 
 .casestudy3 img {
@@ -158,6 +182,7 @@
     width: 522px;
     height: 589px;
     border: 1px solid #5C469C;
+   
 }
 
 .casestudy4 img {
@@ -165,9 +190,7 @@
     height: 277px;
 }
 
-.casestudies {
-    display: inline-block;
-}
+
 
 .circle1 {
     height: 230px;
@@ -200,24 +223,6 @@
     height: 400px;
 }
 
-.footercontent 
-{
-    display: inline-block;
-}
-
-#backgroundimg {
-        background-repeat: no-repeat;
-        background-image: url(../images/footer\ image.png);
-        height: 226px; 
-        background-size: 100% 100%;
-        
-    }
-
-
-ul {
-    list-style: none;
-}
-
 #locationicon {
     width: 50px;
     height: 50px;
@@ -233,16 +238,36 @@ ul {
     height: 50px;
 }
 
+
+#backgroundimg {
+        background-repeat: no-repeat;
+        background-image: url(../images/footer\ image.png);
+        height: 226px; 
+        background-size: 100% 100%;       
+ }
+
+ 
+footer {
+    padding-left: 400px;
+}
+
+ footer ul {
+    display: inline-block;
+    vertical-align: top;
+ }
+
+ footer li{
+    padding-right: 120px ;
+ }
+
+
+
+
 .AboutMe {
     background-image: url(../images/footer\ image.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
   
-}
-
-#figmaicon {
-    width: 50px;
-    height: 50px;
 }
 
 h2 {
