@@ -15,13 +15,13 @@ nav {
     padding: 1%;
 }
 
-nav ul {
+ul {
     width: 50%;
     margin-left: auto;
     text-align: center;
 }
 
-nav li {
+li {
     padding-right: 50px;
 }
 
@@ -257,7 +257,7 @@ footer {
  }
 
  footer li{
-    padding-right: 120px ;
+    padding-right: 50px ;
  }
 
 
